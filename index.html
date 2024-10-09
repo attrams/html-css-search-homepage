@@ -4,12 +4,118 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Homepage</title>
+        <title>Google</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <header>
+            <div class="nav-container">
+                <a class="text-link"
+                    href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://about.google/&ved=2ahUKEwjwwevJkYCJAxVMZ0EAHaVmMIIQFnoECBUQAQ&usg=AOvVaw2QXdibYwGQlf5I-g_eBlzp"
+                    target="_blank">
+                    <p>About</p>
+                </a>
+                <a class="text-link"
+                    href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://store.google.com/%3Fhl%3Den-US&ved=2ahUKEwjmsJbSkYCJAxVTXUEAHaaHGLIQFnoECBgQAQ&usg=AOvVaw1gxu4P8oXO2KikYbCmRP_6"
+                    target="_blank">
+                    <p>Store</p>
+                </a>
+            </div>
+            <nav class="nav-container nav-container-second">
+                <a class="text-link"
+                    href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://accounts.google.com/servicelogin%3Fservice%3Dmail&ved=2ahUKEwiZyOGYkYCJAxXFUEEAHegwA4QQFnoECBcQAQ&usg=AOvVaw26hlV7UXdGMRFkPmKpjnyZ"
+                    target="_blank">
+                    <p>Gmail</p>
+                </a>
+                <a class="text-link"
+                    href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://images.google.com/&ved=2ahUKEwjw-d-6kYCJAxWeTEEAHUIHEd4QFnoECAgQAQ&usg=AOvVaw3Q4yQ3KiojY-wlMeBN8bxK"
+                    target="_blank">
+                    <p>Images</p>
+                </a>
+                <a class="icon-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                    <i class="fa-solid fa-flask"></i>
+                </a>
+                <a class="icon-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                    <i class="fa-solid fa-braille"></i>
+                </a>
+                <button class="img-button">
+                    <img src="public/profile-picture.jpg" alt="profile-image">
+                </button>
+            </nav>
+        </header>
 
+        <main>
+            <h1 class="title-text">
+                <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+            </h1>
+            <div class="input-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input title="search" type="search" name="search">
+                <div>
+                    <button class="input-icon">
+                        <i class="fa-solid fa-microphone"></i>
+                    </button>
+                    <button class="input-icon">
+                        <i class="fa-solid fa-camera"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="button-grid">
+                <button>
+                    <p>Google Search</p>
+                </button>
+                <button>
+                    <p>I'm Feeling Lucky</p>
+                </button>
+            </div>
+            <p class="language-text">Google offered in: <a class="language-link" href="#">Hausa</a> <a
+                    class="language-link" href="#">Akan</a>
+                <a class="language-link" href="#">Ewe</a> <a class="language-link" href="#">Ga</a>
+            </p>
+        </main>
+
+        <footer>
+            <div>
+                <p>Ghana</p>
+            </div>
+            <hr>
+            <div class="footer-grid">
+                <div class="footer-links">
+                    <a href="#">
+                        <p>About</p>
+                    </a>
+                    <a href="#">
+                        <p>Advertising</p>
+                    </a>
+                    <a href="#">
+                        <p>Business</p>
+                    </a>
+                    <a href="#">
+                        <p>How Search works</p>
+                    </a>
+                </div>
+                <div class="footer-links">
+                    <a href="#">
+                        <p>Privacy</p>
+                    </a>
+                    <a href="#">
+                        <p>Terms</p>
+                    </a>
+                    <a href="#">
+                        <p>Settings</p>
+                    </a>
+                </div>
+            </div>
+        </footer>
     </body>
 
 </html>
